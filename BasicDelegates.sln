@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicDelegates", "BasicDele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousDelegates", "AnonymousDelegates\AnonymousDelegates.csproj", "{6C26DF28-4BBD-4600-912B-259DF748DF56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComposableDelegates", "ComposableDelegates\ComposableDelegates.csproj", "{5127361D-0AC0-4DFD-82EE-4E37C61E494B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composable2", "Composable2\Composable2.csproj", "{37E4553E-B8D0-4E8A-8012-D8F998BF5AE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6C26DF28-4BBD-4600-912B-259DF748DF56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C26DF28-4BBD-4600-912B-259DF748DF56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C26DF28-4BBD-4600-912B-259DF748DF56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5127361D-0AC0-4DFD-82EE-4E37C61E494B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5127361D-0AC0-4DFD-82EE-4E37C61E494B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5127361D-0AC0-4DFD-82EE-4E37C61E494B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5127361D-0AC0-4DFD-82EE-4E37C61E494B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37E4553E-B8D0-4E8A-8012-D8F998BF5AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E4553E-B8D0-4E8A-8012-D8F998BF5AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E4553E-B8D0-4E8A-8012-D8F998BF5AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E4553E-B8D0-4E8A-8012-D8F998BF5AE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
