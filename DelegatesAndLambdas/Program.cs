@@ -16,8 +16,13 @@ namespace DelegatesAndLambdas
             // CalculateAndPrint(21,21, (int x, int y) => x + y );
             CalculateAndPrint(21,21, ( x, y) => x + y );
             CalculateAndPrint(21,21, ( x, y) => x - y );
-            CalculateAndPrint(21,21, ( x, y) => x * y );
+            CalculateAndPrint(21,21, ( x, y) => x * y ); 
+
+            CalculateAndPrint("A","B",(x,y)=> x+y);
+            CalculateAndPrint<bool>(true,false,((bool b,bool b1) => b && b1 ));
         }
+        //
+        delegate T Combine<T>(T a, T b);
 
         delegate int MathOp(int x, int y);
 
@@ -31,7 +36,7 @@ namespace DelegatesAndLambdas
             return a - b;
         }
 
-        static void CalculateAndPrint(int x, int y, MathOp f)
+        static void CalculateAndPrint<T>(T x, T y, Combine<T> f)
         {
             var result = f(x, y);
             Console.WriteLine(result);
