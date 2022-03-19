@@ -9,21 +9,24 @@ var heroes = new List<Hero>
     new(string.Empty,string.Empty,"Stormfront",true)
 };
 
-var result = FilterHeroesWhoCanFly(heroes);
-var heroesWhoCanFly = string.Join(", ", result);
+var result = Filter(heroes, h => h.CanFly);
+//var result = FilterHeroes(items, h => string.IsNullOrEmpty(h.LastName);
+var heroesWhoCanFly = string.Join(",\n", result);
 Console.WriteLine(heroesWhoCanFly);
+Filter(new[] { "Homelander", "The Deep", "Stormfront" }, hn => hn.StartsWith("H"));
+Filter(new[] {1,2,3,4,5 }, n=> n %  2 == 0);
 
-List<Hero> FilterHeroesWhoCanFly(List<Hero> heroes)
+// Linq : Where 
+IEnumerable<T> Filter<T>(IEnumerable<T> items,Func<T,bool> f)
 {
-    var resultList = new List<Hero>();
-    foreach (var hero in heroes)
+    foreach (var item in items)
     {
-        if (hero.CanFly)
+        if (f(item))
         {
-            resultList.Add(hero);
+            yield return item;
         }
     }
-
-    return resultList;
 }
+
+//delegate bool Filter<T>(T h);
 record Hero(string FirstName, string LastName, string HeroName, bool CanFly);
