@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdasSolution", "LambdasS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesAndLambdas", "DelegatesAndLambdas\DelegatesAndLambdas.csproj", "{261214ED-BD86-4FD2-A0F3-75ED6FEEB659}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdasAndCollections", "LambdasAndCollections\LambdasAndCollections.csproj", "{4E036C17-7E6D-497D-9BEF-3ED632E9848C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{261214ED-BD86-4FD2-A0F3-75ED6FEEB659}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{261214ED-BD86-4FD2-A0F3-75ED6FEEB659}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{261214ED-BD86-4FD2-A0F3-75ED6FEEB659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E036C17-7E6D-497D-9BEF-3ED632E9848C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E036C17-7E6D-497D-9BEF-3ED632E9848C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E036C17-7E6D-497D-9BEF-3ED632E9848C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E036C17-7E6D-497D-9BEF-3ED632E9848C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
