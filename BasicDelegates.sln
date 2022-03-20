@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdasAndCollections", "La
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncAction", "FuncAction\FuncAction.csproj", "{113EEC26-7FCE-404E-9377-CFB3D00EA66C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Closures", "Recap\Closures.csproj", "{A00711C6-3020-4B3B-B789-DB86E8E7D67C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{113EEC26-7FCE-404E-9377-CFB3D00EA66C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{113EEC26-7FCE-404E-9377-CFB3D00EA66C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{113EEC26-7FCE-404E-9377-CFB3D00EA66C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A00711C6-3020-4B3B-B789-DB86E8E7D67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00711C6-3020-4B3B-B789-DB86E8E7D67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00711C6-3020-4B3B-B789-DB86E8E7D67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00711C6-3020-4B3B-B789-DB86E8E7D67C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
